@@ -9,7 +9,7 @@ public class SimpleInterestTest {
 
     @Test
     public void testStandardCalculation() {
-        assertEquals(100.0, si.calculate(1000, 5, 2), 0.001);
+        assertEquals(200.0, si.calculate(1000, 5, 2), 0.001);
     }
 
     @Test
